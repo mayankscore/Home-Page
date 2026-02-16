@@ -18,9 +18,9 @@ body {
     justify-content: center;
     width: 100%;
     background-color: #1a1a1a;
-    padding: 30px 20px;
+    padding: 20px 20px;
     
-    gap: 20px;
+    gap: 0px;
 }
 
 #section1 h1 {
@@ -111,11 +111,9 @@ hr {
 
 .btn {
     color: #4facfe;
-    background-color: rgb(0, 0, 0);
     transition: color 0.3s ease, transform 0.2s ease;
     text-decoration: none;
     padding: 8px 12px;
-    border-radius: 4px;
     font-size: 15px;
 }
 
@@ -148,7 +146,6 @@ input::placeholder {
 
 .section-heading {
     color:aliceblue;
-    font-family:  sans-serif;
     margin-left: 120px;
     margin-top: 50px;
     margin-bottom: 20px;
@@ -174,13 +171,13 @@ input::placeholder {
     padding:15px;
     text-align: center;
     cursor: pointer;
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
-    box-shadow: 0 4px 15px rgba(0,0,0,0.5);
+    transition: transform 0.3s ease;
+    
 }
 
 .book-card:hover{
     transform: translateY(-10px) scale(1.05);
-    box-shadow: 0 4px 15px rgba(0,0,0,0.5);
+    
 }
 
 .book-cover {
@@ -204,15 +201,9 @@ input::placeholder {
     transform: scale(1.03);
 }
 
-.book-placeholder {
-    font-size: 80px;
-    opacity: 0.8;
-    
-}
 
 .book-card h3{
     color:beige;
-    font-family: sans-serif;
     font-size: 18px;
     margin-bottom:8px;
     font-weight: 600;
@@ -220,7 +211,6 @@ input::placeholder {
 
 .book-card .author {
     color: lightgray;
-    font-family: sans-serif;
     font-size: 14px;
     margin-bottom: 8px;
     font-style: italic;
@@ -229,7 +219,6 @@ input::placeholder {
 
 .book-card .price{
     color: #4facfe;
-    font-family: sans-serif;
     font-size: 16px;
     font-weight: bold;
 }
@@ -239,7 +228,7 @@ footer{
     color: lightgray;
     margin-top: 60px;
     padding: 40px 100px 20px 100px;
-    font-family: sans-serif;
+
 }
 
 .footer-content{
