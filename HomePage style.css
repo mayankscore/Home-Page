@@ -132,12 +132,12 @@ input {
     border-radius: 6px;
     padding: 8px 12px;
     width: 200px;
-    transition: border-color 0.3s ease, box-shadow 0.3s ease;
+    transition: border-color 0.3s ease;
 }
 
 input:focus {
     border-color: #4facfe;
-    box-shadow: 0 0 0 2px rgba(79, 172, 254, 0.2);
+    
 }
 
 input::placeholder {
@@ -286,4 +286,5 @@ footer{
     color: #888;
     font-size:14px;
 }
+
 
